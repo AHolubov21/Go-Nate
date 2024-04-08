@@ -1,0 +1,23 @@
+{
+  "slack": {
+      "bot_token": "xoxb-2130371976770-6066452493427-fMtngLOwJZ4OFvz82jQ3vx2e",
+      "signing_secret": "ba2d64d23707166f12ec6166652bf5a5t",
+      "channels": ["C062ZG8CY83", "C05J7013GQ7"],
+      "app_token": "xapp-1-A061HTFTEFR-6117076243760-f4da3f596c5341b6770620bb64e13008ec3807736b1b0242874a0001a2c4d4af",
+      "bot_user_id": "U061YDAEHCK"  
+  },
+  "database_url": "nathan.db",
+  "llama": {
+      "api_url": "http://localhost:11434",
+      "model_name": "llama2",
+      "api_token": "your_llama_api_token_here_only_for_global_usage"
+  },
+  "alert_keywords": ["FIRING", "CloudWatch Alarm", "Problem", "Alert"],
+  "resolve_keywords": ["Resolved", "OK", "Recovered"],
+  "escalation_times": {
+      "P1": 0,
+      "P2": 15,
+      "P3": 30
+  },
+  "runbook_path": "runbook.md"
+}
